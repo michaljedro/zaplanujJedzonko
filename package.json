@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
+    "format": "prettier --write ./app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "prettier": "2.0.5"
   }
 }
