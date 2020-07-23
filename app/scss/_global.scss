@@ -1,16 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Charmonman");
 
-body {
-  background-color: #292f32;
+$grayColor: #292f32;
+
+
+header {
+  background-color: $grayColor;
+  padding: 10px 0;
 }
 
 .header-navigation .logo {
   font-family: Charmonman;
+  background-color: $grayColor;
 }
+
 .header-navigation .logo .first {
   font-weight: 100;
   color: white;
 }
+
 .header-navigation .logo .second {
   color: #e58a20;
   font-weight: 700;
