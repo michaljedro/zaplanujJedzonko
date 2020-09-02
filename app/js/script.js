@@ -1,43 +1,38 @@
-console.log("Load script.js");
-// Instantiating the global app object
+
 var app = {};
 
 var btnPrev = document.querySelector('#prevPicture');
-console.log(btnPrev);
+
 var btnNext = document.querySelector('#nextPicture');
-console.log(btnNext);
 
-var itemDiv = document.querySelectorAll('.slider div');
-console.log(itemDiv);
-var item = Array.from(itemDiv);
-console.log(item);
+var sliderDivs = document.querySelectorAll('.slider div');
 
-var imagesCounter = 0;
+var item = Array.from(sliderDivs);
 
-console.log(item.length);
+var currentImageIndex = 0;
 
 item[0].classList.add('visible');
 
 function nextSlide() {
-    item[imagesCounter].classList.toggle('visible');
-    if (imagesCounter === item.length - 1) {
-        imagesCounter = 0;
+    item[currentImageIndex].classList.remove('visible');
+    if (currentImageIndex === item.length - 1) {
+        currentImageIndex = 0;
     } else {
-        imagesCounter++;
+        currentImageIndex++;
     }
-    item[imagesCounter].classList.toggle('visible');
+    item[currentImageIndex].classList.add('visible');
 }
 
 btnNext.addEventListener('click', nextSlide);
 
 function prevSlide() {
-    item[imagesCounter].classList.toggle('visible');
-    if (imagesCounter === 0) {
-        imagesCounter = item.length - 1;
+    item[currentImageIndex].classList.remove('visible');
+    if (currentImageIndex === 0) {
+        currentImageIndex = item.length - 1;
     } else {
-        imagesCounter--;
+        currentImageIndex--;
     }
-    item[imagesCounter].classList.toggle('visible');
+    item[currentImageIndex].classList.add('visible');
 }
 
 btnPrev.addEventListener('click', prevSlide);
