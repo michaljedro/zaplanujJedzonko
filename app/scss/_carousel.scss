@@ -7,10 +7,6 @@
   background-color: #f5f5f0;
 }
 
-.slider div {
-  display: none;
-}
-
 .slider .visible {
   display: block;
   width: 60vw;
@@ -18,9 +14,7 @@
 
 .slider__text {
   background-color: #f5f5f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
 }
 
 .slider a {
@@ -28,10 +22,10 @@
   cursor: pointer;
 }
 
-#prevPicture {
+#prev-picture {
   font-size: 2em;
 }
 
-#nextPicture {
+#next-picture {
   font-size: 2em;
 }

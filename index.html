@@ -12,14 +12,13 @@
 
   <title>Zaplanuj Jedzonko</title>
 
-
   <link href="./css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="dist/style.css?cb=1599075808741" />
+  <link rel="stylesheet" href="dist/style.css?cb=1599220802547" />
 
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <div class="container header-navigation">
       <div class="container__item-left">
         <h1 class="logo">
@@ -28,19 +27,19 @@
         </h1>
       </div>
       <div class="container__item-right">
-        <ul>
-          <li><a href="/">ZAPLANUJ POSIŁKI</a></li>
-          <li><a href="/">DLACZEGO WARTO?</a></li>
-          <li><a href="/">O MNIE</a></li>
-          <li><a href="/">KONTAKT</a></li>
+        <ul class="list">
+          <li class="list__items"><a href="/" class="list__items--modify">ZAPLANUJ POSIŁKI</a></li>
+          <li class="list__items"><a href="/" class="list__items--modify">DLACZEGO WARTO?</a></li>
+          <li class="list__items"><a href="/" class="list__items--modify">O MNIE</a></li>
+          <li class="list__items"><a href="/" class="list__items--modify">KONTAKT</a></li>
         </ul>
       </div>
     </div>
   </header>
 
   <div class="slider">
-    <a id="prevPicture">&#10094;</a>
-    <div class="slider__text visible">
+    <a id="prev-picture">&#10094;</a>
+    <div class="slider__text visible none-visible">
       <h1>Lorem ipsum dolor sit.</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum, corporis officiis deserunt id
@@ -48,20 +47,20 @@
       </p>
     </div>
 
-    <div class="slider__text">
+    <div class="slider__text none-visible">
       <h1>Lorem, ipsum dolor.</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, saepe.
       </p>
     </div>
 
-    <div class="slider__text">
+    <div class="slider__text none-visible">
       <h1>Lorem ipsum dolor sit amet.</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore placeat minima?
       </p>
     </div>
-    <a id="nextPicture">&#10095;</a>
+    <a id="next-picture">&#10095;</a>
   </div>
 
 
