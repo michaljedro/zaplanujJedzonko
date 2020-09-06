@@ -1,0 +1,31 @@
+.slider {
+  position: relative;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f0;
+}
+
+.slider .visible {
+  display: block;
+  width: 60vw;
+}
+
+.slider__text {
+  background-color: #f5f5f0;
+  display: none;
+}
+
+.slider a {
+  font-size: 5.5em;
+  cursor: pointer;
+}
+
+#prev-picture {
+  font-size: 2em;
+}
+
+#next-picture {
+  font-size: 2em;
+}

@@ -3,44 +3,16 @@
 @import "global";
 @import "typography";
 @import "./navigation";
+@import "./carousel";
 
-* {
+*,
+*::after,
+*::before {
     padding: 0;
     margin: 0;
+    box-sizing: inherit;
+}
+
+body {
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 90%;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.drugi  {
-    flex-basis: 70%;
-    display: flex;
-    align-items: center;
-}
-
-.drugi ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    list-style-type: none;
-    color: white;
-}
-
-.drugi a {
-    color: white;
-    text-decoration: none;
-}
-
-.drugi a:hover {
-    color: #e58a20;
-}
-.pierw {
-    flex-basis: 30%;
-    text-align: center;
 }
