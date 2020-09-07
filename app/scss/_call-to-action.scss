@@ -1,0 +1,16 @@
+.call-to-action {
+    background-color: $grayColor;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    & .call-to-action__advert {
+        width: 60vw;
+    }
+    & .call-to-aciton__advert--text {
+        color: white;
+    }
+    & .call-to-action__advert--topic {
+        color: white;
+    }
+}
