@@ -1,5 +1,5 @@
 .call-to-action {
-    background-color: $grayColor;
+    background-color: #5b605f;
     height: 20vh;
     display: flex;
     justify-content: space-evenly;
@@ -12,5 +12,9 @@
     }
     & .call-to-action__advert--topic {
         color: white;
+    }
+    & .call-to-action__advert--button {
+        background-color: #f09713;
+        height: 5vh;
     }
 }
