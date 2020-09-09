@@ -7,14 +7,28 @@
     & .call-to-action__advert {
         width: 60vw;
     }
-    & .call-to-aciton__advert--text {
-        color: white;
-    }
     & .call-to-action__advert--topic {
         color: white;
+    }
+    & .call-to-aciton__advert--text {
+        color: white;
+        width: 60vw;
     }
     & .call-to-action__advert--button {
         background-color: #f09713;
         height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15vw;
+        border: 1px solid black;
+    }
+    & .call-to-action__advert--button-text {
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 0.1em;
+        color: white;
+        border: 1px solid red;
+        height: 100%;
     }
 }
