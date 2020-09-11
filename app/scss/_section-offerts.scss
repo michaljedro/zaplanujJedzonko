@@ -1,0 +1,12 @@
+.section__offerts {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    background-color: #f5f5f0;
+}
+.item-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+}
