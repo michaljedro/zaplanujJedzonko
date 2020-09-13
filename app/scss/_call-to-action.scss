@@ -1,6 +1,6 @@
 .call-to-action {
     background-color: #5b605f;
-    height: 20vh;
+    min-height: 20vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -21,14 +21,11 @@
         align-items: center;
         justify-content: center;
         width: 15vw;
-        border: 1px solid black;
     }
     & .call-to-action__advert--button-text {
         text-align: center;
         text-decoration: none;
         letter-spacing: 0.1em;
         color: white;
-        border: 1px solid red;
-        height: 100%;
     }
 }
