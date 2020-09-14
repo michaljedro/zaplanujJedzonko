@@ -2,11 +2,20 @@
     display: flex;
     border: 1px solid red;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #f5f5f0;
+    min-height: 600px;
 }
+
 .item-style {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 30vw;
+    max-width: 800px;
+    border: 1px solid blue;
+    padding: 50px 70px;
+}
+
+i {
+    font-size: 70px;
 }
