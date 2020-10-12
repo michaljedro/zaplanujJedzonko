@@ -1,6 +1,5 @@
 .section__offerts {
     display: flex;
-    border: 1px solid red;
     justify-content: space-evenly;
     align-items: center;
     background-color: #f5f5f0;
@@ -14,7 +13,6 @@
     justify-content: space-between;
     min-height: 600px;
     max-width: 800px;
-    border: 1px solid blue;
     padding: 50px 40px;
     color: gray;
 }
@@ -28,4 +26,5 @@ i {
 }
 .item-style__text {
     font-size: 30px;
+    color: gray;
 }
