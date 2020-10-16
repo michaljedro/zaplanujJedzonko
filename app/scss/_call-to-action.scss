@@ -4,23 +4,22 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    & .call-to-action__advert {
+    &__advert {
         width: 60vw;
     }
-    & .call-to-action__advert--topic {
+    &__advert--topic {
         color: white;
     }
-    & .call-to-aciton__advert--text {
+    &__advert--text {
         color: white;
         width: 60vw;
     }
-    & .call-to-action__advert--button {
+    &__advert--button {
         background-color: #f09713;
         height: 5vh;
         width: 15vw;
-        // border: 1px solid black;
     }
-    & .call-to-action__advert--button-text {
+    &__advert--button-text {
         display: flex;
         justify-content: center;
         align-items: center;
