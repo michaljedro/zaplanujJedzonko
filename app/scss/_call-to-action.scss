@@ -1,0 +1,42 @@
+.call-to-action {
+    background-color: #5b605f;
+    color: white;
+    &__wrapper {
+        display: flex;
+        min-height: 350px;
+        align-items: center;
+        min-width: 80%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__advert {
+        max-width: 975px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__advert--topic {
+        font-size: 40px;
+    }
+    &__advert--text {
+        font-size: 30px;
+    }
+    &__advert--button {
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #f09713;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        width: 400px;
+    }
+    &__advert--button-text {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
+        text-decoration: none;
+        letter-spacing: 0.1em;
+        color: white;
+    }
+}
