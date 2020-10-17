@@ -5,7 +5,9 @@
     background-color: #f5f5f0;
     min-height: 600px;
 }
-
+.font-size {
+    font-size: 24px;
+}
 .section__offerts--items {
     display: flex;
     flex-direction: column;
@@ -14,21 +16,6 @@
     min-height: 600px;
     max-width: 800px;
     padding: 50px 40px;
-    color: gray;
-}
-
-.fa-list {
-    font-size: 170px;
-    color: gray;
-}
-
-.fa-check {
-    font-size: 170px;
-    color: gray;
-}
-
-.fa-clock {
-    font-size: 170px;
     color: gray;
 }
 
