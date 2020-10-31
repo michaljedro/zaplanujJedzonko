@@ -1,0 +1,8 @@
+.about {
+    border: 1px solid red;
+    &__img {
+        border: 1px solid greenyellow;
+        height: 200px;
+        width: 200px;
+    }
+}
