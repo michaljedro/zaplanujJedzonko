@@ -1,32 +1,42 @@
 .call-to-action {
     background-color: #5b605f;
-    height: 20vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    color: white;
+    &__wrapper {
+        display: flex;
+        min-height: 350px;
+        align-items: center;
+        min-width: 80%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     &__advert {
-        width: 60vw;
+        max-width: 975px;
+        margin-left: auto;
+        margin-right: auto;
     }
     &__advert--topic {
-        color: white;
+        font-size: 40px;
     }
     &__advert--text {
-        color: white;
-        width: 60vw;
+        font-size: 30px;
     }
     &__advert--button {
+        margin-right: auto;
+        margin-left: auto;
         background-color: #f09713;
-        height: 5vh;
-        width: 15vw;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        width: 400px;
     }
     &__advert--button-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 25px;
         text-decoration: none;
         letter-spacing: 0.1;
         color: white;
-        border: 1px solid red;
-        height: 100%;
     }
 }
