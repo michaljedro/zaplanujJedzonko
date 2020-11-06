@@ -1,8 +1,20 @@
 .about {
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
     &__img {
-        border: 1px solid greenyellow;
+        background-color: gray;
         height: 200px;
         width: 200px;
     }
+    &__text {
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+.about__text-paragraph {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
