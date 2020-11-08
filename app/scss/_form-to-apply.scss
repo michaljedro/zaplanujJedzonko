@@ -8,7 +8,6 @@
     margin-left: auto;
     margin-right: auto;
     &__text {
-        // min-width: 80%;
         text-align: center;
         margin-top: auto;
         margin-bottom: auto;
@@ -18,9 +17,6 @@
     &__box {
         margin-left: auto;
         min-height: 50px;
-    }
-    &-input {
-        background-color: pink;
     }
 }
 .bgc_form {
