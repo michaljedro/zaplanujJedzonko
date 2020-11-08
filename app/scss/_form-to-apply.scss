@@ -23,25 +23,22 @@
     background-color: $grayColor;
 }
 .form__wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 80%;
     display: flex;
 }
 .form__box-input {
     min-width: 500px;
-    border: none;
-    margin-right: none;
-    margin-left: none;
-    font-size: 50px;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 0;
 }
 
 .form__box {
     display: flex;
 }
 .form__box-button {
+    cursor: pointer;
     min-width: 200px;
-    border: none;
+    border: 0;
     background-color: #f09713;
     color: white;
     font-size: 25px;
