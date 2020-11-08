@@ -6,15 +6,29 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Open Sans", sans-serif;
     &__item {
         color: whitesmoke;
         margin: 20px;
         margin-left: auto;
         margin-right: auto;
         border: 1px solid orange;
-        max-width: 300px;
+        max-width: 180px;
+        text-align: left;
+    }
+    &__item-button {
+        min-width: 50px;
+        max-width: 100px;
+        border: none;
+        background-color: #f09713;
+        color: white;
+        font-size: 15px;
+    }
+    &__item-input {
+        max-width: 50%;
     }
 }
+
 .copyright {
     background-color: #464646;
     text-align: center;
