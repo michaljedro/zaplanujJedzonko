@@ -1,6 +1,6 @@
 .footer {
     display: flex;
-    border: 1px solid green;
+    border: 1px solid red;
     background-color: #5b605f;
     width: 80%;
     max-width: 1200px;
@@ -14,4 +14,19 @@
         border: 1px solid orange;
         max-width: 300px;
     }
+}
+.copyright {
+    background-color: #464646;
+    text-align: center;
+    padding: 10px;
+    &__text {
+        color: white;
+    }
+    &__text-modify {
+        color: #dc6121;
+    }
+}
+
+.bgc_1 {
+    background-color: #5b605f;
 }
