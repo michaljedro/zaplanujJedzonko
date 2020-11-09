@@ -1,4 +1,4 @@
-.form {
+.contact {
     background-color: $grayColor;
     display: flex;
     align-items: center;
@@ -19,23 +19,23 @@
         min-height: 50px;
     }
 }
-.bgc_form {
+.bgc_contact {
     background-color: $grayColor;
 }
-.form__wrapper {
+.contact__wrapper {
     display: flex;
 }
-.form__box-input {
+.contact__box-input {
     min-width: 500px;
     margin-left: 20px;
     font-size: 25px;
     border: 0;
 }
 
-.form__box {
+.contact__box {
     display: flex;
 }
-.form__box-button {
+.contact__box-button {
     cursor: pointer;
     min-width: 200px;
     border: 0;
