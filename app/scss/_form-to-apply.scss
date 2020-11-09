@@ -7,6 +7,7 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid black;
     &__text {
         text-align: center;
         margin-top: auto;
@@ -24,16 +25,19 @@
 }
 .contact__wrapper {
     display: flex;
+    width: 100%;
+    border: 1px solid red;
 }
 .contact__box-input {
     min-width: 500px;
-    margin-left: 20px;
+    margin-left: auto;
     font-size: 25px;
     border: 0;
 }
 
 .contact__box {
     display: flex;
+    border: 1px solid red;
 }
 .contact__box-button {
     cursor: pointer;
