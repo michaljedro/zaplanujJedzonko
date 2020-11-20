@@ -1,11 +1,14 @@
 .footer {
-    display: flex;
     background-color: #5b605f;
-    width: 80%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: "Open Sans", sans-serif;
+    &__wrap {
+        display: flex;
+        background-color: #5b605f;
+        width: 80%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Open Sans", sans-serif;
+    }
     &__item {
         color: whitesmoke;
         margin: 20px;
@@ -18,11 +21,10 @@
         display: flex;
     }
     &__item-button {
-        max-width: 25%;
-        min-width: 25%;
+        width: 25%;
         height: 20px;
         border: none;
-        background-color: #f09713;
+        background-color: $orangeColor;
         color: white;
         font-size: 10px;
         outline: none;
@@ -58,10 +60,10 @@
         color: white;
     }
     &__text-modify {
-        color: #dc6121;
+        color: $orangeColor;
     }
 }
 
-.bgc_1 {
-    background-color: #5b605f;
-}
+// .bgc_1 {
+//     background-color: #5b605f;
+// }
