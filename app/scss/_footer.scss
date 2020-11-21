@@ -2,8 +2,9 @@
     background-color: #5b605f;
     &__wrap {
         display: flex;
+        justify-content: space-between;
         background-color: #5b605f;
-        width: 80%;
+        min-width: 80%;
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
@@ -11,9 +12,7 @@
     }
     &__item {
         color: whitesmoke;
-        margin: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        min-width: 20%;
         max-width: 180px;
         text-align: left;
     }
@@ -34,8 +33,12 @@
         height: 20px;
         outline: none;
     }
-    &__item-h3 {
+    &__item-header {
         margin-bottom: 15px;
+        font-size: 20px;
+    }
+    &__item-paragraph {
+        font-size: 20px;
     }
     &__item-sign:nth-of-type(1) {
         margin-left: 5px;
@@ -50,12 +53,19 @@
         position: relative;
         right: -11%;
     }
+    &__item-ullist {
+        font-size: 20px;
+    }
+    &__item-lilist {
+        margin-top: 10px;
+    }
 }
 
 .copyright {
     background-color: #464646;
     text-align: center;
     padding: 10px;
+    font-family: "Open Sans", sans-serif;
     &__text {
         color: white;
     }
@@ -63,7 +73,3 @@
         color: $orangeColor;
     }
 }
-
-// .bgc_1 {
-//     background-color: #5b605f;
-// }
