@@ -16,5 +16,15 @@ section {
     background-color: #4a4a49;
 }
 .welcome {
-    background: url(../assets/bgc);
+    border: 3px dotted black;
+    width: 70vw;
+    height: 90vh;
+    background-image: url("/assets/image.jpg");
+}
+.hash {
+    width: 30vw;
+    height: 90vh;
+}
+.sekcja {
+    display: flex;
 }
