@@ -20,7 +20,34 @@ section {
     width: 70vw;
     height: 90vh;
     background-image: url("/assets/image.jpg");
+    font-family: "Open Sans", sans-serif;
+
+    text-align: center;
+    &__header {
+        margin-top: 5vh;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+    }
+    &__paragraph {
+        margin-top: 2vh;
+    }
+    &__input {
+        margin-top: 2vh;
+        border-radius: 0;
+        outline: none;
+        min-width: 20vw;
+        font-size: 30px;
+    }
+    &__button {
+        margin-top: 1vh;
+        width: 8vw;
+    }
+    &__paragraph-second {
+        margin-top: 2vh;
+        font-size: 25px;
+    }
 }
+
 .hash {
     width: 30vw;
     height: 90vh;
