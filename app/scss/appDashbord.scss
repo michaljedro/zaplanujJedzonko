@@ -14,6 +14,10 @@ section {
 .dashbordView__header {
     height: 10vh;
     background-color: #4a4a49;
+    color: #fdfefa;
+}
+.dashbordView__header--orange {
+    color: orange;
 }
 .welcome {
     border: 3px dotted black;
@@ -21,7 +25,6 @@ section {
     height: 90vh;
     background-image: url("/assets/image.jpg");
     font-family: "Open Sans", sans-serif;
-
     text-align: center;
     &__header {
         margin-top: 5vh;
@@ -51,7 +54,26 @@ section {
 .hash {
     width: 30vw;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #636766;
+    color: #fdfefa;
+    &__link {
+        color: #fdfefa;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        font-size: 25px;
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 .sekcja {
     display: flex;
+}
+.hash__link:hover {
+    color: orange;
 }
