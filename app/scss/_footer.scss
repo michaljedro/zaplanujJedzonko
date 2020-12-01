@@ -17,8 +17,18 @@
         max-width: 180px;
         text-align: left;
     }
+    &__item-icon {
+        color: whitesmoke;
+        min-width: 20%;
+        max-width: 180px;
+        text-align: left;
+    }
     &__item-box {
         display: flex;
+        margin-bottom: 10px;
+    }
+    &__item-head {
+        margin-bottom: 10px;
     }
     &__item-button {
         width: 25%;
@@ -50,12 +60,10 @@
     &__item-sign:nth-of-type(3) {
         margin-left: 22px;
     }
-    &__item-ulcontainer {
-        position: relative;
-        right: -11%;
-    }
     &__item-ullist {
         font-size: 20px;
+        position: relative;
+        right: -11%;
     }
     &__item-lilist {
         margin-top: 10px;
