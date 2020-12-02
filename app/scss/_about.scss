@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+    &__img {
+        background-color: gray;
+        height: 200px;
+        width: 200px;
+    }
+    &__text {
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+.about__text-paragraph {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
