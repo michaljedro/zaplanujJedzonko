@@ -1,0 +1,48 @@
+.contact {
+    background-color: $grayColor;
+    display: flex;
+    align-items: center;
+    min-height: 200px;
+    min-width: 80%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    &__text {
+        margin-top: auto;
+        margin-bottom: auto;
+        color: white;
+        font-size: 50px;
+        min-width: 150px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+    &__box {
+        min-height: 50px;
+    }
+}
+.contact_bgc {
+    background-color: $grayColor;
+}
+.contact__wrapper {
+    display: flex;
+    width: 100%;
+}
+.contact__box-input {
+    min-width: 300px;
+    font-size: 25px;
+    border: 0;
+}
+
+.contact__box {
+    display: flex;
+    margin-left: auto;
+}
+.contact__box-button {
+    cursor: pointer;
+    min-width: 150px;
+    border: 0;
+    background-color: #f09713;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
