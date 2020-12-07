@@ -1,82 +1,100 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#1843c1" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1" />
 
-  <meta name="theme-color" content="#1843c1" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#1843c1" />
+    <title>Zaplanuj Jedzonko</title>
 
-  <title>Zaplanuj Jedzonko</title>
+    <link href="./css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/style.css?cb=1607371072205" />
+  </head>
 
-  <link href="./css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="dist/style.css?cb=1606508051543" />
-
-</head>
-
-<body>
-  <header class="header">
-    <div class="container header-navigation">
-      <div class="container__item-left">
-        <h1 class="logo">
-          <span class="first">Zaplanuj</span>
-          <span class="second">Jedzonko</span>
-        </h1>
+  <body>
+    <header class="header">
+      <div class="container header-navigation">
+        <div class="container__item-left">
+          <h1 class="logo">
+            <span class="first">Zaplanuj</span>
+            <span class="second">Jedzonko</span>
+          </h1>
+        </div>
+        <div class="container__item-right">
+          <ul class="list">
+            <li class="list__items">
+              <a href="./main.html" class="list__items--modify"
+                >ZAPLANUJ POSIŁKI</a
+              >
+            </li>
+            <li class="list__items">
+              <a href="/" class="list__items--modify">DLACZEGO WARTO?</a>
+            </li>
+            <li class="list__items">
+              <a href="/" class="list__items--modify">O MNIE</a>
+            </li>
+            <li class="list__items">
+              <a href="/" class="list__items--modify">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="container__item-right">
-        <ul class="list">
-          <li class="list__items"><a href="./main.html" class="list__items--modify">ZAPLANUJ POSIŁKI</a></li>
-          <li class="list__items"><a href="/" class="list__items--modify">DLACZEGO WARTO?</a></li>
-          <li class="list__items"><a href="/" class="list__items--modify">O MNIE</a></li>
-          <li class="list__items"><a href="/" class="list__items--modify">KONTAKT</a></li>
-        </ul>
+    </header>
+
+    <div class="slider">
+      <a id="prev-picture">&#10094;</a>
+      <div class="slider__text visible none-visible">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          earum, corporis officiis deserunt id quis?
+        </p>
+      </div>
+
+      <div class="slider__text none-visible">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident,
+          saepe.
+        </p>
+      </div>
+
+      <div class="slider__text none-visible">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore
+          placeat minima?
+        </p>
+      </div>
+      <a id="next-picture">&#10095;</a>
+    </div>
+    <div class="call-to-action">
+      <div class="call-to-action__wrapper">
+        <div class="call-to-action__advert">
+          <p class="call-to-action__advert--topic">
+            Lorem ipsum TOPIC sit amet.
+          </p>
+          <p class="call-to-aciton__advert--text">
+            Lorem ipsum TEXT sit amet consectetur adipisicing elit. Saepe
+            placeat quisquam nam sed? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Modi, saepe!
+          </p>
+        </div>
+        <div class="call-to-action__advert--button">
+          <a href="index.html" class="call-to-action__advert--button-text"
+            >Lorem Ipsum</a
+          >
+        </div>
       </div>
     </div>
-  </header>
 
-  <div class="slider">
-    <a id="prev-picture">&#10094;</a>
-    <div class="slider__text visible none-visible">
-      <h1>Lorem ipsum dolor sit.</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum, corporis officiis deserunt id
-        quis?
-      </p>
-    </div>
-
-    <div class="slider__text none-visible">
-      <h1>Lorem, ipsum dolor.</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, saepe.
-      </p>
-    </div>
-
-    <div class="slider__text none-visible">
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore placeat minima?
-      </p>
-    </div>
-    <a id="next-picture">&#10095;</a>
-  </div>
-  <div class="call-to-action">
-    <div class="call-to-action__wrapper">
-      <div class="call-to-action__advert">
-        <p class="call-to-action__advert--topic">Lorem ipsum TOPIC sit amet.</p>
-        <p class="call-to-aciton__advert--text">Lorem ipsum TEXT sit amet consectetur adipisicing elit. Saepe placeat
-          quisquam nam sed? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, saepe!</p>
-      </div>
-      <div class="call-to-action__advert--button">
-        <a href="index.html" class="call-to-action__advert--button-text">Lorem Ipsum</a>
-      </div>
-    </div>
-  </div>
-
-  <script src="./app/js/script.js"></script>
-
-</body>
-
+    <script src="./app/js/script.js"></script>
+  </body>
 </html>
