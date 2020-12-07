@@ -1,8 +1,8 @@
-.dashbordView {
+.dashbord_view {
   height: 100vh;
 }
 
-.dashbordView__header {
+.dashbordview__header {
   height: 10vh;
   background-color: hsl(60, 1%, 29%);
   color: #fdfefa;
@@ -28,7 +28,7 @@
     margin-left: 10px;
   }
 }
-.dashbordView__header--orange {
+.dashbordview__header--orange {
   color: orange;
 }
 .welcome {
