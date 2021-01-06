@@ -8,7 +8,6 @@
         max-width: 90%;
         margin-left: auto;
         margin-right: auto;
-        border: 1px solid red;
     }
 }
 
@@ -17,7 +16,6 @@
     flex-direction: column;
     align-items: space-evenly;
     text-align: center;
-    border: 5px solid green;
     min-height: 500px;
     max-width: 300px;
     padding-top: 100px;
@@ -27,10 +25,8 @@
 .offers__offer {
     font-size: 30px;
     padding-top: 10px;
-    border: 1px solid orange;
 }
 .offers__offer-item {
-    border: 8px solid pink;
     padding-top: 10px;
     font-size: 15px;
     color: gray;
