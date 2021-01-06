@@ -35,3 +35,13 @@ function prevSlide() {
 }
 
 btnPrev.addEventListener("click", prevSlide);
+
+var btnVisible = document.querySelector('.list__items--modify');
+
+console.log(btnVisible);
+
+function show() {
+  var dashView = document.querySelector('.dashbord_view');
+  dashView.style.display = 'block';
+  // var indexView = document.
+}
