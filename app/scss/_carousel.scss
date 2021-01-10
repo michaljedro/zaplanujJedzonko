@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: $whiteColor;
+  background-color: #f5f5f0;
 }
 
 .slider .visible {
@@ -13,9 +13,8 @@
 }
 
 .slider__text {
-  background-color: $whiteColor;
+  background-color: #f5f5f0;
   display: none;
-  text-align: center;
 }
 
 .slider a {
