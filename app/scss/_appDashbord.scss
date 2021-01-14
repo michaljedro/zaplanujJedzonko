@@ -2,7 +2,9 @@
   height: 100vh;
   display: none;
 }
-
+.show {
+  display: block;
+}
 .dashbordview__header {
   height: 10vh;
   background-color: hsl(60, 1%, 29%);
