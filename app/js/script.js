@@ -1,6 +1,3 @@
-
-var app = {};
-
 var btnPrev = document.querySelector('#prev-picture');
 
 var btnNext = document.querySelector('#next-picture');
@@ -57,11 +54,5 @@ var show = document.querySelector('.show');
 dashView.style.display = 'none';
 show.style.display = 'block';
 })
-// btnVisible.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     var dashView = document.querySelector('.dashbord_view');
-//     var show = document.querySelector('.show');
-//     dashView.style.display = 'none';
-//     show.style.display = 'block';
-//     });
+
 
