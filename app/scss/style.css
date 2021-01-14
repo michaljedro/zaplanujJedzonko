@@ -239,11 +239,31 @@
 }
 
 .welcome {
-  width: 70vw;
+  width: 70%;
   height: 90vh;
   background-image: url("/assets/image.jpg");
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.welcome__bgc {
+  padding-top: 40px;
+  background-color: #fffffa;
+  width: 90%;
+  height: 90%;
 }
 
 .welcome__header {
@@ -287,7 +307,7 @@
 
 .welcome__button {
   margin-top: 10px;
-  width: 80px;
+  width: 90px;
   background-color: #f86626;
   color: white;
   font-size: 15px;
@@ -349,7 +369,7 @@
           align-items: center;
 }
 
-.sekcja {
+.section__hash {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

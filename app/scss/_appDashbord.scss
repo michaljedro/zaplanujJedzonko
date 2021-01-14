@@ -41,11 +41,21 @@
   color: #f86626;
 }
 .welcome {
-  width: 70vw;
+  width: 70%;
   height: 90vh;
   background-image: url("/assets/image.jpg");
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &__bgc {
+    padding-top: 40px;
+    background-color: #fffffa;
+    width: 90%;
+    height: 90%;
+  }
   &__header {
     margin-top: 80px;
     font-size: 30px;
@@ -71,7 +81,7 @@
   }
   &__button {
     margin-top: 10px;
-    width: 80px;
+    width: 90px;
     background-color: #f86626;
     color: white;
     font-size: 15px;
@@ -112,7 +122,7 @@
     align-items: center;
   }
 }
-.sekcja {
+.section__hash {
   display: flex;
 }
 .hash__link:hover {
